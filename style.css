@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(233, 230, 224);
+    font : "Quicksand";
+    font-size: 20px;
+}
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+.container1{
+    margin-left : 5%;
+    margin-top: 5%;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container3{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+textarea{
+    box-shadow: 10px 10px 25px 0px rgb(34, 32, 32);
+    outline: none;
+    border: none;
+    height: 300px;
+    width: 300px;
+    padding: 30px 25px 25px 25px;
+}
+#check-icon{
+    position: absolute;
+    right: 13%;
+    top: 5%;
+}
+#cross-icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+#image{
+    height : 30px;
+    width : 30px;
+}
+/* For mobile phones */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        /* Stack items vertically */
+    }
+}
+
+/* For tablets and desktops */
+@media (min-width: 600px) {
+    .navbar {
+        flex-direction: row;
+    }
+}
