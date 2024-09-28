@@ -70,7 +70,7 @@ textarea{
     width : 30px;
 }
 /* For mobile phones */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbar {
         flex-direction: column;
         /* Stack items vertically */
